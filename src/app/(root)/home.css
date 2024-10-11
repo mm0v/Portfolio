@@ -1,0 +1,88 @@
+section {
+  background-color: #0f172a;
+}
+
+.social-links > li {
+  margin-top: 14px;
+  font-size: 28px;
+}
+.social-links > li > a {
+  color: #818cf8;
+}
+
+.contact-btn {
+  background-color: #818cf8;
+}
+
+.imgbox {
+  background-image: url("../../../public/assets/image/profile.jpg");
+  height: 360px;
+  width: 360px;
+  border-radius: 24px;
+}
+
+.text-home {
+  color: #ffff;
+}
+
+.my-name {
+  font-weight: 700;
+  font-size: 50px;
+}
+
+.specialty {
+  font-size: 32px;
+  margin: 4px 0;
+}
+
+.text-page {
+  max-width: 600px;
+  margin: 20px 0;
+}
+
+.field {
+  width: 300px;
+}
+
+.mouse {
+  width: 26px;
+  height: 48px;
+  border: 3px solid #818cf8;
+  border-radius: 60px;
+  position: relative;
+  &::before {
+    content: "";
+    width: 12px;
+    height: 12px;
+    position: absolute;
+    top: 4px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #818cf8;
+    border-radius: 50%;
+    opacity: 1;
+    animation: wheel 2s infinite;
+    -webkit-animation: wheel 2s infinite;
+  }
+}
+
+@keyframes wheel {
+  to {
+    opacity: 0;
+    top: 40px;
+  }
+}
+
+.scroll-down {
+  color: #ffff;
+  margin-left: 14px;
+}
+
+.size-icon {
+  transform: rotateY(0deg) rotate(45deg);
+  color: #ffff;
+}
+
+.size-icon:hover {
+  cursor: pointer;
+}

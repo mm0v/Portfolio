@@ -1,0 +1,31 @@
+header {
+  background-color: #0f172a;
+}
+
+.ul-nav > li {
+  margin-left: 16px;
+  font-size: 20px;
+  font-weight: 600;
+  color: #ffff;
+}
+
+.logo {
+  font-size: 29px;
+  font-weight: 600;
+}
+.logo .telman {
+  color: #ffffff;
+}
+.logo .info {
+  background: linear-gradient(90deg, #a24cff, #c1a7ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.icon-dark {
+  color: #ffff;
+}
+
+.icon-dark:hover {
+  cursor: pointer;
+}
