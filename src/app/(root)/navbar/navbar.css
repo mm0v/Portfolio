@@ -1,5 +1,9 @@
 header {
   background-color: #0f172a;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
 }
 
 .ul-nav > li {
@@ -13,9 +17,11 @@ header {
   font-size: 29px;
   font-weight: 600;
 }
+
 .logo .telman {
   color: #ffffff;
 }
+
 .logo .info {
   background: linear-gradient(90deg, #a24cff, #c1a7ff);
   -webkit-background-clip: text;
@@ -28,4 +34,8 @@ header {
 
 .icon-dark:hover {
   cursor: pointer;
+}
+
+body {
+  padding-top: 60px;
 }

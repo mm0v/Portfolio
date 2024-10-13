@@ -1,5 +1,6 @@
-section {
+.main-home {
   background-color: #0f172a;
+  height: 99vh;
 }
 
 .social-links > li {
@@ -85,4 +86,90 @@ section {
 
 .size-icon:hover {
   cursor: pointer;
+}
+
+/* End Main Home */
+
+.spec-row {
+  background-color: #1e293b;
+}
+
+.frontend,
+.backend {
+  text-align: center;
+  font-weight: 700;
+  font-size: 40px;
+  width: 300px;
+  height: 60px;
+  background-color: #a4a2c4;
+  color: #ffff;
+  opacity: 0.6;
+}
+
+.frontend-text,
+.backend-text {
+  width: 400px;
+  color: #ffff;
+}
+
+.frontend-text > h4 {
+  font-weight: 700;
+  color: #6366f1;
+  font-size: 30px;
+}
+
+.backend-text > h4 {
+  font-weight: 900;
+  color: #6366f1;
+  font-size: 30px;
+}
+
+@keyframes slideInLeft {
+  0% {
+    transform: translateX(-50%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes slideInRight {
+  0% {
+    transform: translateX(50%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+.frontend-text,
+.frontend {
+  animation: slideInLeft 1s ease-out forwards;
+}
+
+.backend-text,
+.backend {
+  animation: slideInRight 1s ease-out forwards;
+}
+
+/* Services Start */
+
+.servicesOfMain {
+  background-color: #6366f1;
+  color: #ffff;
+  padding: 10px 60px;
+}
+
+.h3Andp {
+  padding: 14px;
+}
+
+.h3Andp > h3 {
+  font-weight: 700;
+  font-size: 24px;
+  margin-bottom: 8px;
 }

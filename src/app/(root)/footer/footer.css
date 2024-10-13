@@ -1,1 +1,16 @@
+.footer {
+  background-color: #0f172a;
+  padding: 40px 0;
+}
 
+.my-mail {
+  color: #ffff;
+}
+
+.footer-logo-name > span {
+  font-size: 40px;
+}
+
+.footer-icons > li {
+  margin-left: 10px;
+}
