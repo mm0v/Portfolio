@@ -1,0 +1,32 @@
+.contact {
+  background-color: #0f172a;
+  padding: 60px 0;
+  margin-top: 60px;
+}
+
+.contactAndGet {
+  text-align: center;
+  height: 30vh;
+  color: #ffff;
+}
+
+.contactAndGet > h1 {
+  font-size: 60px;
+  font-weight: 700;
+}
+
+.contactInformation {
+  color: #ffff;
+  background-color: #161E30;
+  padding: 30px;
+  border-radius: 30px;
+  box-shadow: 0 0 300px rgb(244, 244, 244);
+}
+
+.contactInformation > h1 {
+  font-size: 32px;
+}
+
+.ci {
+  max-width: 900px;
+}

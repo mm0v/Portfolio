@@ -5,6 +5,7 @@
 
 .my-mail {
   color: #ffff;
+  margin: 14px 0;
 }
 
 .footer-logo-name > span {
@@ -13,4 +14,8 @@
 
 .footer-icons > li {
   margin-left: 10px;
+}
+
+.footer-icons > li > a {
+  color: #818cf8;
 }

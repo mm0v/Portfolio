@@ -1,18 +1,35 @@
+/* Header Styles */
 header {
   background-color: #0f172a;
   position: fixed;
+  text-align: center;
   top: 0;
   width: 100%;
   z-index: 1000;
 }
 
+/* Navigation List Items */
 .ul-nav > li {
   margin-left: 16px;
   font-size: 20px;
   font-weight: 600;
-  color: #ffff;
+  color: #ffffff;
 }
 
+.ul-nav > li a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.ul-nav > li a:hover {
+  color: #a24cff; /* Hover effect for links */
+}
+
+.ul-nav > li a.active {
+  color: #a24cff; /* Color for active link */
+}
+
+/* Logo Styles */
 .logo {
   font-size: 29px;
   font-weight: 600;
@@ -28,14 +45,77 @@ header {
   -webkit-text-fill-color: transparent;
 }
 
+/* Icon Styles */
 .icon-dark {
-  color: #ffff;
+  color: #ffffff;
 }
 
 .icon-dark:hover {
   cursor: pointer;
 }
 
-body {
-  padding-top: 60px;
+/* Responsive Navigation - Hide by default on small screens */
+nav > .ul-nav {
+  display: none;
+}
+
+/* Show the navigation when the `visible` class is added */
+nav.visible > .ul-nav {
+  display: block;
+  flex-direction: column;
+  background-color: #0f172a;
+  position: absolute;
+  top: 42px; /* Adjust this based on your header height */
+  right: 0;
+  padding: 20px;
+  width: 100%;
+}
+
+.ul-nav li {
+  margin: 10px 0; /* Add some margin for mobile nav */
+}
+
+/* Media Query for Large Screens - Hide Mobile Icons */
+@media (min-width: 1050px) {
+  .icon-dark > .res-icon,
+  .dark-mode {
+    display: none;
+  }
+
+  /* Show navigation as a horizontal list */
+  nav > .ul-nav {
+    display: flex;
+    background: none;
+    position: relative;
+    padding: 0;
+  }
+
+  /* Remove the block style for large screens */
+  ul.ul-nav {
+    flex-direction: row;
+  }
+
+  ul.ul-nav li {
+    margin: 0 20px; /* Adjust for spacing between items */
+  }
+}
+
+/* Media Query for Small Screens */
+@media (max-width: 1050px) {
+  /* Ensure the icons for mobile display */
+  .icon-dark > .res-icon,
+  .dark-mode {
+    display: inline-block;
+  }
+
+  /* Navigation in column layout */
+  nav.visible > .ul-nav {
+    display: block;
+    height: 100vh;
+    flex-direction: column;
+  }
+
+  ul.ul-nav li {
+    margin: 15px 0; /* Add spacing for mobile view */
+  }
 }

@@ -11,6 +11,7 @@ const Footer = () => {
   return (
     <section className="footer">
       <div className="container-fluid">
+       
         <div className="row">
           <div className="text-center">
             <div className="logo footer-logo-name">
@@ -21,27 +22,6 @@ const Footer = () => {
               <div className="my-mail">
                 <h2>mammadovtelman03@gmail.com</h2>
               </div>
-            </div>
-            <div>
-              <nav>
-                <ul className="flex p-5 ul-nav justify-center">
-                  <li>
-                    <Link href={"/"}>Home</Link>
-                  </li>
-                  <li>
-                    <Link href={"/about"}>About</Link>
-                  </li>
-                  <li>
-                    <Link href={"/services"}>Services</Link>
-                  </li>
-                  <li>
-                    <Link href={"/portfolio"}>Portfolio</Link>
-                  </li>
-                  <li>
-                    <Link href={"/contact"}>Contact</Link>
-                  </li>
-                </ul>
-              </nav>
             </div>
             <div>
               <ul className="social-links footer-icons flex justify-center">
