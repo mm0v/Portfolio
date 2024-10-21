@@ -220,7 +220,7 @@
 .servicesOfMain {
   background-color: #6366f1;
   color: #ffff;
-  padding: 10px 60px;
+  padding: 80px;
 }
 
 .h3Andp {
@@ -242,13 +242,12 @@
     flex-basis: 33.33%;
   }
   .main-home {
-    padding-top: 8rem;
+    padding-top: 6rem;
   }
 }
 
 @media (max-width: 1050px) {
   .main-home {
-    margin-top: 10px;
     padding-top: 20px;
   }
   .main-3 {
