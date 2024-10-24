@@ -75,6 +75,85 @@ const About = () => {
             </div>
           </div>
         </div>
+        <div className="row aboutWork">
+          <div className="grid grid-cols-1 text-center workExperienceWord">
+            <div>Work Experience</div>
+          </div>
+
+          <div className="grid grid-cols-2 aboutBox">
+            <div className="col-span-1 current">
+              <p>{`<Current/>`}</p>
+            </div>
+            <div className="col-span-1">
+              <div className="box">
+                <p>April 2023 - Present</p>
+                <h3>Elemental Web Solutions</h3>
+                <h5>
+                  My latest venture in website design was gaining employment at
+                  Elemental where I have started learning new technologies both
+                  in the workplace and training. I am currently working on an
+                  Angular course to further my knowledge and experience.
+                </h5>
+              </div>
+            </div>
+          </div>
+
+          <div className="grid grid-cols-2 aboutBox">
+            <div className="col-span-1">
+              <div className="box">
+                <p>January 2021 - Present</p>
+                <h3>telman.info</h3>
+                <h5>
+                  Once I was more comfortable and experienced in website design
+                  I began freelancing to further my experience and
+                  customer-relation skills. Handling all aspects of the process
+                  gave me an insight into how a business is run and what it
+                  takes to manage clients.
+                </h5>
+              </div>
+            </div>
+            <div className="col-span-1 current">
+              <p>{`<Freelance/>`}</p>
+            </div>
+          </div>
+
+          <div className="grid grid-cols-2 aboutBox">
+            <div className="col-span-1 current">
+              <p>{`<Introduction/>`}</p>
+            </div>
+            <div className="col-span-1">
+              <div className="box">
+                <p>May 2018 - April 2023</p>
+                <h3>Maxitec Internet Services</h3>
+                <h5>
+                  My introduction to website design came from an internship and
+                  later employment at a small ISP in my hometown. During my time
+                  there I became familiar with CMS's, web technologies,
+                  analytics and more.
+                </h5>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        {/* <div className="row">
+          <div className="flex items-center justify-center">
+            <div>
+              <div className="imgboxTech">
+                <img src="" alt="" />
+              </div>
+              <div className="imgboxTech">
+                <img src="" alt="" />
+              </div>
+              <div className="imgboxTech">
+                <img src="" alt="" />
+              </div>
+              <div className="imgboxTech">
+                <img src="" alt="" />
+              </div>
+            </div>
+          </div>
+        </div> */}
       </div>
     </section>
   );

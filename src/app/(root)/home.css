@@ -1,5 +1,6 @@
 .main-home {
   background-color: #0f172a;
+
   height: 98vh;
 }
 
@@ -119,6 +120,7 @@
     left: 50%;
     transform: translateX(-50%);
     background-color: #818cf8;
+
     border-radius: 50%;
     opacity: 1;
     animation: wheel 2s infinite;
@@ -161,6 +163,7 @@
   width: 300px;
   height: 60px;
   background-color: #a4a2c4;
+
   color: #ffff;
   opacity: 0.6;
 }
@@ -219,6 +222,7 @@
 
 .servicesOfMain {
   background-color: #6366f1;
+
   color: #ffff;
   padding: 80px;
 }
@@ -232,6 +236,26 @@
   font-size: 24px;
   margin-bottom: 8px;
 }
+
+/* Tech */
+.techName {
+  font-size: 50px;
+  color: #ffff;
+  font-weight:700;
+}
+.techSkills {
+  background-color: red;
+}
+
+.imgboxTech {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 10px;
+  
+}
+
+/* Tech */
 
 /* Start Responsive CSS */
 

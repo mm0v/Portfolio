@@ -66,3 +66,45 @@
   background-clip: padding-box;
   background-position: center;
 }
+
+.workExperienceWord {
+  color: #ffff;
+  font-weight: 800;
+  font-size: 34px;
+  padding: 40px 0;
+}
+
+.current {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+
+.aboutWork {
+  padding: 30px 50px;
+  background: linear-gradient(135deg, #606cd7, #313770, #18191f, #1a2384);
+}
+
+.aboutBox {
+  padding: 30px 80px;
+}
+
+.box {
+  border-radius: 10px;
+  background: linear-gradient(135deg, #575d93, #313770, #181924, #1a2384);
+  padding: 20px;
+  color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+}
+
+.box > p {
+  color: #818cf8;
+}
+
+.box > h3,
+h5 {
+  margin: 10px 0;
+  font-weight: 500;
+  color: #ffff;
+}

@@ -5,6 +5,7 @@ import FacebookIcon from "@mui/icons-material/Facebook";
 import InstagramIcon from "@mui/icons-material/Instagram";
 import XIcon from "@mui/icons-material/X";
 import GitHubIcon from "@mui/icons-material/GitHub";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { Button } from "@mui/material";
 import HeightIcon from "@mui/icons-material/Height";
 import React, { useEffect, useRef, useState } from "react";
@@ -214,6 +215,70 @@ const Home = () => {
                   Google when people are looking for products or services
                   similar to those that you or your company offer
                 </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="row techSkills">
+          <div className="flex justify-center flex-col items-center">
+            <div className="techName">
+              <h1> Technologies I use</h1>
+            </div>
+            <div className="flex">
+              <div className="imgboxTech">
+                <i className="fa-brands fa-html5"></i>
+                <h6>HTML</h6>
+              </div>
+              <div className="imgboxTech">
+                <i className="fa-brands fa-css3-alt"></i>
+                <h6>CSS</h6>
+              </div>
+              <div className="imgboxTech">
+                <i className="fa-brands fa-js"></i>
+                <h6>JavaScript</h6>
+              </div>
+              <div className="imgboxTech">
+                <i className="fa-brands fa-sass"></i>
+                <h6>Sass/Scss</h6>
+              </div>
+            </div>
+            <br />
+            <div className="flex">
+              <div className="imgboxTech">
+                <i className="devicon-tailwindcss-original"></i>
+                <h6>TailwindCSS</h6>
+              </div>
+              <div className="imgboxTech">
+                <i className="devicon-bootstrap-plain"></i>
+                <h6>Bootstrap</h6>
+              </div>
+              <div className="imgboxTech">
+                <i className="fa-brands fa-git-alt"></i>
+                <h6>Git</h6>
+              </div>
+              <div className="imgboxTech">
+                <i className="devicon-jquery-plain"></i>
+                <h6>jQuery</h6>
+              </div>
+            </div>
+            <br />
+            <div className="flex">
+              <div className="imgboxTech">
+                <i className="fa-brands fa-react"></i>
+                <h6>React</h6>
+              </div>
+              <div className="imgboxTech">
+                <i className="fa-brands fa-node"></i>
+                <h6>Node JS</h6>
+              </div>
+              <div className="imgboxTech">
+                <i className="devicon-tailwindcss-original"></i>
+                <h6>TailwindCSS</h6>
+              </div>
+              <div className="imgboxTech">
+                <i className="devicon-bootstrap-plain"></i>
+                <h6>Bootstrap</h6>
               </div>
             </div>
           </div>
