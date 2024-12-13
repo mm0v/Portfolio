@@ -112,13 +112,13 @@ const About = () => {
                 </h5>
               </div>
             </div>
-            <div className="col-span-1 current">
-              <p>{`<Freelance/>`}</p>
+            <div className="col-span-1 freelance">
+              <p>{`<Freelance />`}</p>
             </div>
           </div>
 
           <div className="grid grid-cols-2 aboutBox">
-            <div className="col-span-1 current">
+            <div className="col-span-1 introduction">
               <p>{`<Introduction/>`}</p>
             </div>
             <div className="col-span-1">

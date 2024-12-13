@@ -254,8 +254,8 @@ const Home = () => {
                 <h6>Bootstrap</h6>
               </div>
               <div className="imgboxTech">
-                <i className="fa-brands fa-git-alt"></i>
-                <h6>Git</h6>
+                <i className="devicon-materialui-plain"></i>
+                <h6>Material UI</h6>
               </div>
               <div className="imgboxTech">
                 <i className="devicon-jquery-plain"></i>
@@ -273,12 +273,12 @@ const Home = () => {
                 <h6>Node JS</h6>
               </div>
               <div className="imgboxTech">
-                <i className="devicon-tailwindcss-original"></i>
-                <h6>TailwindCSS</h6>
+                <i className="devicon-typescript-plain"></i>
+                <h6>TypeScript</h6>
               </div>
               <div className="imgboxTech">
-                <i className="devicon-bootstrap-plain"></i>
-                <h6>Bootstrap</h6>
+                <i className="fa-brands fa-git-alt"></i>
+                <h6>Git</h6>
               </div>
             </div>
           </div>
